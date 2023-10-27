@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dev",
+            "request": "launch",
+            "type": "dart", 
+            "args": [
+                "--flavor",
+                "dev"
+            ]
+        },
+        {
+            "name": "Stage",
+            "request": "launch",
+            "type": "dart", 
+            "args": [
+                "--flavor",
+                "staging"
+            ]
+        },
+        {
+            "name": "Prod",
+            "request": "launch",
+            "type": "dart", 
+            "args": [
+                "--flavor",
+                "prod"
+            ]
+        }
+    ]
+}
