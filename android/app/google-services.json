@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "242476944047",
+    "project_id": "homethrive-prod",
+    "storage_bucket": "homethrive-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242476944047:android:0575f907d0f4fbb8ce225a",
+        "android_client_info": {
+          "package_name": "com.miraclefoundation.homethrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242476944047-d5gqaa82luc1s0r6cnap30hne2q6ibo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkmDKHd9m-SHXsp3P7Ua2odM2EHEjHJyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242476944047-d5gqaa82luc1s0r6cnap30hne2q6ibo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

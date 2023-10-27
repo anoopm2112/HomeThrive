@@ -1,0 +1,388 @@
+{
+    "AssessmentList": {
+        "header": "Upcoming Assessments",
+        "actions": {
+            "viewAssessment": "View Assessment",
+            "continueAssessment": "Continue Assessment"
+        },
+        "message": {
+            "noSearchItems": "No items matched your search",
+            "noItems": "No assessment to list",
+            "dataError": {
+                "part1": "You are offline",
+                "part2": "Please enable data connection and try again later!"
+            },
+            "fieldValidationMsg": "Field requires a value"
+        }
+    },
+    "CaseList": {
+        "header": "To begin, select a child:",
+        "actions": {
+            "beginAssessment": "Begin Assessment"
+        },
+        "message": {
+            "noSearchItems": "No items matched your search",
+            "noItems": "No case to list"
+        }
+    },
+    "Assessment": {
+        "actions": {
+            "saveAndReturn": "Save & Exit",
+            "back": "Back",
+            "next": "Next",
+            "submit": "Submit",
+            "moreInfo": "More Info"
+        },
+        "label": {
+            "viewAssessment": "View Assessments",
+            "editAssessment": "Edit Assessments",
+            "addAssessment": "Add Assessments",
+            "details": "Details",
+            "PreAssessmentQuestionairre": "Pre-Assessment Questionnaire",
+            "familyAndSocialRelationship": "Family and Social Relationships",
+            "householdEconomy": "Household Economy",
+            "livingConditions": "Living Conditions",
+            "education": "Education",
+            "healthAndmentalHealth": "Health and Mental Health",
+            "summary": "Summary",
+            "redFlagMilestones": "Red Flag Milestones",
+            "areaNeedingImmediateIntervention": "Areas Needing Immediate Intervention",
+            "homeThriveScore": "Home Thrive Score",
+            "didYouMeetTheChild": "Did you meet the child?",
+            "childsThought": "Child's thought on placement",
+            "familysThought": "Family's thought on placement",
+            "caseId": "*Case Id",
+            "typeOfVisit": "Type of visit",
+            "dateOfVisit": "Date of visit",
+            "dateOfAssessment": "*Date of Assessment",
+            "typeOfReIntegration": "Type of Reintegration Option being Assessed",
+            "thriveScaleScore": "Thrive Scale Score: ",
+            "specifyReason": "*Specify Reason",
+            "overallObservationAndThoughts": "*Overall Observations and Thoughts",
+            "explainOtherIntervention": "*Explain Other Intervention",
+            "interventionDetails": "Intervention Details",
+            "otherValue": "Other value",
+            "thriveScaleSubmitted": "Thrive Scale Submitted",
+            "assessmentCompleted": "Assessment Completed",
+            "assessmentScore": "Assessment Score",
+            "thriveScaleComplete": "Thrive Scale Complete",
+            "thriveScaleSaved": "Thrive Scale Saved",
+            "returnToCalendar": "Return to Calendar",
+            "scoresByDomain": "Scores by Domain",
+            "domainThriveScaleScore": "Thrive Scale Scores",
+            "Questions": "Q:",
+            "of": "of",
+            "assessment": "Assessment",
+            "new": "New",
+            "incomplete": "Incomplete",
+            "overdue": "Overdue",
+            "complete": "Complete",
+            "upload": "Upload"
+        },
+        "message": {
+            "areYouSureWantToLeave": "Are you sure want to leave?",
+            "confirm": "Confirm",
+            "importantMessageNote": "Consider the impact of important events such as recent death of parent/caregiver, recent separation/ divorce, change in caregiver, etc.",
+            "congrats": {
+                "part1": "Congratulations on completing the",
+                "part2": "Thrive Scale Form"
+            },
+            "finalMessage": "Using the Action Plan you have just designed, we can work together to improve the lives of our children!",
+            "noCrisisLevelConcern": "- No crisis level concerns.",
+            "noInternet": "Internet unavailable",
+            "assessmentSavedToLocal": {
+                "part1": "Assessment has been saved in local storage. ",
+                "part2": "It can be synced later."
+            }
+        },
+        "redFlagTranslation": {
+            "redFlag": "Red Flag Question",
+            "redFlagMilestone": "Red Flag Milestones",
+            "noRedFlag": "- There are no Red Flags for this child.",
+            "subHead1": "The following milestones are ones for which either 'In-crisis' or 'Vulnerable' were marked and need to be addressed.",
+            "subHead2": "Red flag milestones are those that, if in-crisis, will prevent reintegration at this time. Each milestone is followed by its corresponding intervention that can be recommended to the family to prepare them for reintegration.",
+            "pleaseSelectIntervention": "Please select which interventions will be planned and include details of plan for each in the box provided.",
+            "followingAreMarkedInCrisis": "The following milestones have been marked in-crisis and reintegration should not take place at this time.",
+            "followingAreMarkedVulnerable": "The following milestone have been marked as 'vulnerable'. Reintegration can take place but these must be resolved as soon as possible.",
+            "areaNeedingImmediateIntervention": "Areas Needing Immediate Intervention - Statements marked as In-Crisis or Vulnerable will show up here.",
+            "followingAreEitherCrisisOrVulnerable": "The following milestones are ones for which either 'In-crisis' or 'Vulnerable' were marked and need to be addressed. Each domain includes possible interventions.",
+            "selectWhichInterventionWillBePlanned": "Please select which interventions will be planned and include details of plan for each in the box provided.",
+            "reIntegrationShouldNotTakePlace": "Reintegration should not take place until all of the Red Flag milestones marked 'in-crisis' have been addressed. However, the ultimate decision is left to the best judgment of the social worker/case manager. Please select what the final recommendation regarding integration is and specify reason in the box below.",
+            "pleaseSelectFinalRecommendation": "Please select what the final recommendation regarding integration is and specify reason in the box below.",
+            "pleaseIndicateFollowUp": "*Please indicate if more frequent follow ups are needed (Thrive Scale does not need to be completed after these supplemental calls/visits)."
+        },
+        "spiderChartDomains": {
+            "familyAndSocialRelationship": "Family and Social Relationships",
+            "householdEconomy": {
+                "part1": "Household Economy",
+                "part2": " Economy"
+            },
+            "livingConditions": "Living Conditions",
+            "education": "Education",
+            "healthAndmentalHealth": {
+                "part1": "Health and Mental Health",
+                "part2": " Mental Health"
+            },
+            "moreDetails": "More Details"
+        },
+        "followUps": {
+            "weekly": "Weekly",
+            "fortnightly": "Fortnightly (Bi-weekly)",
+            "monthly": "Monthly",
+            "everyTwoMonths": "Every 2 Months (Bi-monthly)",
+            "noNeedForFollowUps": "No need for more frequent follow ups - stay with regular schedule"
+        }
+    },
+    "ContinueAssessment": {
+        "header": "Partially Complete",
+        "actions": {
+            "viewAssessment": "View Assessment",
+            "continueAssessment": "Continue Assessment"
+        }
+    },
+    "Upload": {
+        "header": "Upload Assessment",
+        "message": {
+            "syncData": "Sync Data",
+            "syncMessage": "Seems you have changes pending to sync with the server.",
+            "nothingToUpload": "Nothing to Upload",
+            "pleaseSync": "Please sync your changes!",
+            "success": "Assessments uploaded successfully",
+            "failed": "Assessment upload failed",
+            "enableDataConnection": "Please enable data connection",
+            "youHaveOnePending": {
+                "part1": "You have ",
+                "part2": "assessment pending to upload"
+            },
+            "youHaveMultiplePending": {
+                "part1": "You have ",
+                "part2": "assessments pending to upload"
+            },
+            "oneUploaded": "assessment uploaded",
+            "multipleUploaded": "assessments uploaded",
+            "uploading": "Uploading..."
+        },
+        "action": {
+            "upload": "Upload"
+        }
+    },
+    "Download": {
+        "header": "Download",
+        "message": {
+            "downloadMessage": {
+                "part1": "Here you can download all the data required",
+                "part2": "to run the app in offline mode..."
+            },
+            "downloading": "Downloading",
+            "start": "START",
+            "stop": "STOP",
+            "success": "Download Success"
+        }
+    },
+    "AppSettings": {
+        "header": "Settings",
+        "label": {
+            "language": "Language"
+        }
+    },
+    "SideMenuItem": {
+        "label": {
+            "startAnAssessment": "Start an Assessment",
+            "continueAnAssessment": "Continue an Assessment",
+            "upload": "Upload",
+            "download": "Download",
+            "logOut": "Logout",
+            "profile": "Profile",
+            "username": "Username",
+            "appSettings": "Settings",
+            "changePassword": "Change Password"
+        }
+    },
+    "ListItem": {
+        "label": {
+            "caseWorker": "Case Worker",
+            "organizationName": "Organization Name",
+            "assessmentDate": "Assessment Date"
+        }
+    },
+    "LoginScreen": {
+        "thriveScale": "Thrive Scale",
+        "signInToYourAccount": "Sign in to your account",
+        "email": "Email",
+        "password": "Password",
+        "forgotPassword": "Forgot Password",
+        "signIn": "Sign In",
+        "poweredBy": "Powered by",
+        "loading": "Loading...",
+        "message": {
+            "invalidEmail": "Must be a valid email",
+            "emailRequired": "Email is required",
+            "passwordRequired": "Password is required",
+            "loginPasswordMustBe6Characters": "Password must be at least 6 characters",
+            "passwordMustBe8Characters": "Password must be at least 8 characters",
+            "changeTempPassword": "Change temporary password",
+            "passwordDoesNotMatch": "New Password and Confirm Password do not match",
+            "invalidPassword": "Password must be a combination of uppercase, lowercase, numeric and special character",
+            "userNotExists": "User Not Exists",
+            "incorrectUserNamePassword": "Either the username was not found or the password is incorrect. Please try again or use 'forgot password'."
+        },
+        "newPassword": "New Password",
+        "confirmPassword": "Confirm Password",
+        "changePassword": "Change Password"
+    },
+    "AssessmentFilter": {
+        "assessmentStatus": "Assessment Status",
+        "filterByDate": "Filter by date",
+        "from": "From",
+        "to": "To"
+    },
+    "ForgotPassword": {
+        "label": {
+            "forgotPassword": "Forgot Password?",
+            "enterEmail": "Enter Email"
+        },
+        "message": {
+            "invalidEmail": "Must be a valid email",
+            "emailRequired": "Email is required"
+        }
+    },
+    "NewPassword": {
+        "label": {
+            "forgotPassword": "Forgot Password?",
+            "enterEmail": "Enter Email",
+            "enterVerificationCode": "Enter Verification Code",
+            "newPassword": "New Password",
+            "confirmNewPassword": "Confirm Password"
+        },
+        "message": {
+            "invalidEmail": "Must be a valid email",
+            "emailRequired": "Email is required",
+            "enterVerificationCodeAndPass": "Enter Verification code and New Password.",
+            "passwordDoesNotMatch": "New Password and Confirm Password do not match",
+            "verificationCodeRequired": "Verification code required",
+            "enterValidVerificationCode": "Enter valid verification code",
+            "confirmPasswordRequired": "Confirm password is required",
+            "Attemptlimitexceededpleasetryaftersometime.": "Attempt limit exceeded, please try after some time",
+            "Invalidverificationcodeprovidedpleasetryagain.": "The verification code you provided doesn't match our records. Please double-check your code."
+        },
+        "action": {
+            "submit": "Change Password"
+        }
+    },
+    "ChangePassword": {
+        "header": "Change Password",
+        "label": {
+            "currentPassword": "Current Password",
+            "newPassword": "New Password",
+            "confirmNewPassword": "Confirm Password"
+        },
+        "message": {
+            "passwordDoesNotMatch": "New Password and Confirm Password do not match",
+            "confirmPasswordRequired": "Confirm password is required",
+            "currentPasswordRequired": "Current password is required",
+            "currentPasswordIsInvalid": "Current password is invalid",
+            "newPasswordRequired": "New password is required",
+            "newPasswordIsInvalid": "New password is invalid",
+            "successMessage": {
+                "part1": "Password Changed",
+                "part2": "Password has been changed successfully"
+            }
+        },
+        "action": {
+            "submit": "Change Password"
+        }
+    },
+    "NotificationPanel": {
+        "header": "Notification",
+        "readNotification": "Show read notifications",
+        "unreadNotification": "Only show unread",
+        "noNotification": "There are no notifications"
+    },
+    "Common": {
+        "header": {
+            "thriveScale": "Thrive Scale"
+        },
+        "label": {
+            "home": "Home",
+            "faqs": "FAQs",
+            "messages": "Messages",
+            "lastReport": "Last Report",
+            "previousTSScore": "Previous Thrive Scale Score",
+            "noPreviousRecords": "No previous records",
+            "previousScore": "Previous Score",
+            "closed": "Closed",
+            "search": "Search",
+            "yes": "Yes",
+            "no": "No",
+            "cancel": "Cancel",
+            "ok": "OK",
+            "close": "Close",
+            "closeFilter": "Close filter",
+            "otherValues": "Other values",
+            "selectLanguage": "Select Language",
+            "changeLanguage": "Change Language",
+            "apply": "Apply filter",
+            "submit": "Submit",
+            "formLoadError": "Form load error",
+            "formError": "Please click Next or Previous button to reload form",
+            "offlineLanguageMsg": "Please connect to wifi or your data plan in order to change the language."
+        }
+    },
+    "month": {
+        "January" : "January",
+        "February" : "February", 
+        "March" : "March", 
+        "April" : "April", 
+        "May" : "May", 
+        "June": "June", 
+        "July" : "July", 
+        "August" : "August", 
+        "September" : "September", 
+        "October" : "October", 
+        "November" : "November", 
+        "December" : "December",
+        "today" : "Today"
+    },
+    "Profile": {
+        "label" : {
+            "firstName" : "First Name",
+            "lastName" : "Last Name",
+            "organization" : "Organization",
+            "email" : "Email",
+            "country" : "Country",
+            "regionState" : "Region/State",
+            "districtCounty" : "District/County",
+            "city" : "City",
+            "zipcode" : "Zipcode",
+            "Address1" : "Address 1",
+            "Address2" : "Address 2",
+            "phone" : "Phone Number",
+            "editProfile" : "Edit Profile",
+            "updateProfile" : "Update Profile",
+            "saveChanges" : "Save Changes",
+            "cancelChanges" : "Cancel Changes",
+            "settings": "Settings"
+        },
+        "message" : {
+            "imageUploadSuccess" : "Image uploaded successfully",
+            "userEditedSuccess" : "User edited successfully",
+            "somethingWrong" : "Something went wrong, Please try again.",
+            "uploadingImage" : "Uploading Image",
+            "changeImage" : "Change Image",
+            "selectImage": "Select Image",
+            "removeImage" : "Remove Image"
+        },
+        "validationMessage" : {
+            "firstnameRequired" : "Please enter first name",
+            "lastnameRequired" : "Please enter last name",
+            "cityRequired" : "Please enter city",
+            "countryRequired" : "Please select country",
+            "stateRequired" : "Please select region state",
+            "districtRequired" : "Please select district",
+            "zipCodeRequired" : "Please enter zipcode",
+            "address1Required" : "Please enter address 1",
+            "phoneRequired" : "Please enter phone number",
+            "validPhoneRequired": "Please enter valid phone number"
+        }
+    }
+}
