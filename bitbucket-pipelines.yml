@@ -1,0 +1,62 @@
+image: node:12.13.1
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: 'Init pipeline'
+          caches:
+            - node
+          script:
+            - echo "This step runs once you click the 'Run' button"
+      - step:
+          name: Deploy to dev
+          deployment: dev
+          image: node:12.13.1
+          script:
+            - echo $SERVERLESS_STAGE
+            - echo $AWS_ACCESS_KEY_ID
+            - yarn install
+            - yarn build
+            - yarn global add serverless@2.72.0
+            - export AWS_REGION=us-east-1
+            - serverless config credentials --stage ${SERVERLESS_STAGE} --provider aws --key ${AWS_ACCESS_KEY_ID} --secret ${AWS_SECRET_ACCESS_KEY}
+            - serverless --stage ${SERVERLESS_STAGE}
+    master:
+      - step:
+          name: 'Init pipeline'
+          caches:
+            - node
+          script:
+            - echo "This step runs once you click the 'Run' button"
+      - step:
+          name: Deploy to staging
+          deployment: staging
+          image: node:12.13.1
+          size: 2x
+          script:
+            - yarn install
+            - yarn build
+            - yarn global add serverless@2.72.0
+            - export AWS_REGION=us-east-1
+            - serverless config credentials --stage ${SERVERLESS_STAGE} --provider aws --key ${AWS_ACCESS_KEY_ID} --secret ${AWS_SECRET_ACCESS_KEY}
+            - serverless --stage ${SERVERLESS_STAGE}
+  custom: # Pipelines that are triggered manually
+   Production-Build:
+      - step:
+          name: 'Init pipeline'
+          caches:
+            - node
+          script:
+            - echo "This step runs once you click the 'Run' button"
+      - step:
+          name: Deploy to prod
+          deployment: production
+          image: node:12.13.1
+          size: 2x
+          script:
+            - yarn install
+            - yarn build
+            - yarn global add serverless@2.72.0
+            - export AWS_REGION=us-east-1
+            - serverless config credentials --stage ${SERVERLESS_STAGE} --provider aws --key ${AWS_ACCESS_KEY_ID} --secret ${AWS_SECRET_ACCESS_KEY}
+            - serverless --stage ${SERVERLESS_STAGE}

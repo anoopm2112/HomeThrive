@@ -1,0 +1,13 @@
+service: fostershare-web-${env.SERVERLESS_STAGE}
+
+stage: ${env.SERVERLESS_STAGE}
+fostershare-web-${env.SERVERLESS_STAGE}:
+  component: "@sls-next/serverless-component"
+  inputs: 
+    name: 
+      defaultLambda: fostershare-web-${env.SERVERLESS_STAGE}-DefaultLambda
+      apiLambda: fostershare-web-${env.SERVERLESS_STAGE}-ApiLambda
+      imageLambda: fostershare-web-${env.SERVERLESS_STAGE}-ImageLambda
+    bucketName: ${env.BUCKET_NAME}
+    cloudfront:
+      distributionId: ${env.DISTRIBUTION_ID}

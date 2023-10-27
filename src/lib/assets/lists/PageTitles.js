@@ -1,0 +1,17 @@
+export default {
+  dashboard: ['Dashboard'],
+  agencies: ['Agencies', 'Agency Details'],
+  resources: ['Resources', 'Resource Details'],
+  localresources: ['Support Services', 'Support Service Details'],
+  users: ['Users Management', 'Users', 'User Details'],
+  agents: ['Case Managers', 'Case Manager Details'],
+  events: ['Events', 'Event Details'],
+  families: ['Families', 'Family Details'],
+  children: ['Children', 'Child Details'],
+  messages: ['Notifications', 'Notification Details'],
+  alerts: ['Alerts', 'Alert Details'],
+  profile: ['Profile'],
+  auth: ['Auth', 'Register'],
+  notifications: ['Alerts'],
+  test: ['Test'],
+}

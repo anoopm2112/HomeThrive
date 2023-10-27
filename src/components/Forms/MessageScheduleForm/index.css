@@ -1,0 +1,71 @@
+.ant-picker{
+  height: 56px;
+}
+.ant-picker:hover, .ant-picker-focused {
+  border: 2px solid #F37123;
+  border-right: 2px solid #F37123 !important;
+  outline: none;
+  box-shadow: none;
+  border-radius: 4px;
+}
+.ant-picker-dropdown{
+  z-index: 9999;
+}
+.ant-picker-now-btn{
+  display: none !important;
+}
+
+/* .ant-picker-now > a{
+  color: #F37123;
+}
+.ant-btn-primary{
+  border-color: #F37123;
+  background: #F37123;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus{
+  border-color: #F37123;
+  background: #F37123;
+}
+.ant-picker-time-panel-column > li.ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner{
+  background-color: rgba(0, 0, 0, 0.08);
+} */
+.ant-picker-time-panel-column:nth-child(1) {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.ant-picker-time-panel-column:nth-child(1)::-webkit-scrollbar {
+  display: none;
+}
+.ant-picker-time-panel-column:nth-child(2) {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.ant-picker-time-panel-column:nth-child(2)::-webkit-scrollbar {
+  display: none;
+  height: 100px !important;
+}
+/* .ant-picker-time-panel-column:nth-child(2) {
+  overflow: hidden !important;
+} */
+.timeFieldError{
+  color: #F37123;
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+  margin: 0;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.66;
+}
+.scheduleWarningText{
+  color: #F37123;
+  margin: 0;
+  font-size: 0.75rem;
+  margin-top: 3px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.66;
+}

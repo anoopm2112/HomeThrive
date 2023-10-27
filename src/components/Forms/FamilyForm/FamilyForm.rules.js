@@ -1,0 +1,20 @@
+const rules = {
+  firstName: 'regular',
+  lastName: 'regular',
+  email: 'email',
+  phoneNumber: 'phone',
+  address: 'regular',
+  city: 'regular',
+  state: 'alpha|max:2',
+  zipCode: 'digits:5',
+  occupation: 'regular',
+  agentId: 'alpha_num',
+  childId: 'alpha_num',
+  licenseNumber: 'alpha_num',
+  parent2FirstName: 'regular',
+  parent2LastName: 'regular',
+  parent2Email: 'email',
+  parent2PhoneNumber: 'phone',
+  parent2Occupation: 'regular',
+}
+export default rules

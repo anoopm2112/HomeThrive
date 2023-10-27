@@ -1,47 +1,46 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# testing
+/coverage
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-/build/
+# next.js
+/.next/
+/out/
 
-# Env
-lib/env/.env*.dart
+# production
+/build
 
-# Amplify Configuration
-lib/core/services/auth/amplify_configuration*.dart
+# misc
+.DS_Store
+*.pem
 
-# Web related
-lib/generated_plugin_registrant.dart
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Symbolication related
-app.*.symbols
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Obfuscation related
-app.*.map.json
+# vercel
+.vercel
+
+#serverless
+.serverless
+.serverless_nextjs
+<<<<<<< HEAD
+=======
+
+
+.fostershare_graphql_web.json
+>>>>>>> develop

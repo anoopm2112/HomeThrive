@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Nav_Icons/home@2x</title>
+    <defs>
+        <path d="M18,18.75 L15.375,18.75 L15.375,12.75 L8.625,12.75 L8.625,18.75 L6,18.75 L6,12.956625 L4.125,14.8167375 L4.125,20.625 L10.5,20.625 L10.5,14.625 L13.5,14.625 L13.5,20.625 L19.875,20.625 L19.875,14.816775 L18,12.9566625 L18,18.75 Z M11.9673,2.2498125 L1.2385125,12.89325 L2.559075,14.2243875 L11.9673,4.8909 L21.3748125,14.2243875 L22.695375,12.89325 L11.9673,2.2498125 Z" id="path-1"></path>
+    </defs>
+    <g id="Nav_Icons/home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#778791" xlink:href="#path-1"></use>
+    </g>
+</svg>
